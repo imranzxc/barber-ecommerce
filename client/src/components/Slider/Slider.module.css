@@ -1,0 +1,24 @@
+.titles_container {
+  @apply flex 
+  justify-around 
+  py-5
+  transition-all 
+  text-lg  
+  text-black
+  bg-inherit
+  border-b-2
+  border-black
+  xl:text-lg
+  lg:text-lg
+  md:text-sm
+  sm:text-xs
+  xs:text-[10px]
+  xs:leading-4
+}
+
+.titles_container div {
+  @apply hover:text-slate-400
+    cursor-pointer
+    transition-all 
+    duration-500;
+}
