@@ -1,0 +1,45 @@
+.Header_container {
+  @apply w-full
+  flex
+  justify-between
+  items-center
+  px-10
+  py-2
+  text-2xl
+  sticky
+  top-0
+  left-0
+  z-[100]
+  bg-black
+  text-white;
+}
+
+.logo_container {
+  @apply flex
+   justify-center;
+}
+
+.logo_container img {
+  @apply md:w-[30%]
+    xs:w-3/12;
+}
+
+.menu_person_container {
+  @apply w-1/12
+    flex
+    gap-10;
+}
+
+.menu_person_container span:hover {
+  @apply transition   
+    duration-500
+    text-brown
+    cursor-pointer;
+}
+
+.basket_container:hover {
+  @apply transition   
+     duration-500
+     text-brown
+     cursor-pointer;
+}

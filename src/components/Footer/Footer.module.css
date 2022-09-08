@@ -1,0 +1,122 @@
+.Footer_container {
+  @apply m-auto
+    px-10
+    py-10
+    bg-black
+    text-black;
+}
+
+.columns_container {
+  @apply flex
+    justify-between
+    border-b
+    px-[1.4em]
+    py-[0.75em]
+    lg:flex-nowrap
+    md:flex-wrap
+    xs:flex-wrap
+    xs:px-2
+    xs:m-auto;
+}
+
+.columns_container div {
+  @apply md:w-[30%]
+   sm:w-[50%]
+   xs:w-auto;
+}
+
+.columns_container div ul li {
+  @apply mb-10
+   text-xs
+   font-semibold
+   cursor-pointer
+   text-white;
+}
+
+.columns_container div ul li svg {
+  @apply text-2xl;
+}
+.columns_container div ul li:hover {
+  @apply text-brown
+    transition   
+    duration-500
+    cursor-pointer;
+}
+
+.networks_mail_container {
+  @apply w-[30%];
+}
+
+.networks_container {
+  @apply h-4
+   text-[2em];
+}
+
+.networks_mail_container {
+  @apply flex
+   flex-col
+   gap-6
+   text-white;
+}
+
+.networks_container li {
+  @apply cursor-pointer
+   text-2xl;
+}
+
+.networks_container li:hover {
+  @apply text-brown
+    transition   
+    duration-500;
+}
+
+.networks_container {
+  @apply flex
+    gap-4;
+}
+
+.input_container {
+  @apply w-full
+   flex;
+}
+
+.input_container input {
+  @apply p-2
+   bg-transparent 
+   border
+  border-white
+   outline-none;
+}
+
+.input_container button {
+  @apply h-full
+   px-4
+   text-xs
+ text-black
+   font-semibold
+ bg-white;
+}
+
+.input_container button:hover {
+  @apply bg-brown
+    transition   
+    duration-500
+    text-white;
+}
+
+.underline_titles_container {
+  @apply mx-auto
+  mt-12
+  text-center
+  xl:text-sm
+  sm:text-sm
+  xs:text-[0.5em]
+  xs:mt-4
+  text-white;
+}
+
+.underline_titles_container ul {
+  @apply w-full
+  flex
+  justify-around;
+}
